@@ -1,5 +1,3 @@
-package buseduc.javacourse.prax.p01;
-
 public class Prax_01_ {
     public static void main(String[] args) {
         /**
