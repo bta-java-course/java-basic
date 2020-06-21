@@ -91,7 +91,7 @@ public class Prax_01_pr {
 
         short z1 = 1;
         short z2 = 2;
-        z1 = (short)  (  z1 +  z2);
+        z1 = (short)  ( (int) z1 + (int) z2);
 
         System.out.println(z1);
 
