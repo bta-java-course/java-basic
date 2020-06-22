@@ -3,9 +3,10 @@ package buseduc.javacourse.prax.p02_logic;
 public class Prax_02_ {
     public static void main(String[] args) {
 
-    /**
-    * Практикум 2. Арифметические операции
-    */
+        /**
+        * Практикум 3. Арифметические операции
+        */
+
         /**
          * Задание 1
          */
@@ -46,6 +47,17 @@ public class Prax_02_ {
          * Задание 10
          */
 
+        /**
+         * Задание 11
+         */
+
+        /**
+         * Задание 12
+         */
+
+        /**
+         * Задание 13
+         */
 
     }
 
