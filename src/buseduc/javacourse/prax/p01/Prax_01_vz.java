@@ -46,7 +46,7 @@ public class Prax_01_vz {
          * Ответ: На экран выводятся одинаковые значения переменных x, y , z, k = 119
          */
 
-        int x, y, z, k;
+        int y, z, k;
         x = 119 + 1;
         y = 0167 + 1;
         z = 0x77 + 1;
@@ -81,7 +81,8 @@ public class Prax_01_vz {
          * Ответ: нужно заменить int на double
          */
 
-        double x = 10, y = 3;
+        x = 10;
+        y = 3;
         System.out.println( x / y );
 
     }
