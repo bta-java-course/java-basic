@@ -11,7 +11,7 @@ public class Prax_01_pr {
          */
 
         /**
-         * Задание 3
+         * Задание 3 nnnnn
          */
 
         int x = 2020;
@@ -109,6 +109,7 @@ public class Prax_01_pr {
 
         int xx = 10, y = 3;
         System.out.println( (float) xx / y );
+
 
     }
 }
