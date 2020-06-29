@@ -10,7 +10,8 @@ public class Prax_02_LP {
         /**
          * Задание 2
          */
-
+        double k = (double) 10 / 4;
+        System.out.println(k);
         /**
          * Задание 3
          */
