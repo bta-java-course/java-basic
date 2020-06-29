@@ -1,5 +1,12 @@
-public class Prax_01_ {
+package buseduc.javacourse.prax.p02_logic;
+
+public class Prax_02_ {
     public static void main(String[] args) {
+
+        /**
+        * Практикум. Арифметические операции
+        */
+
         /**
          * Задание 1
          */
@@ -40,5 +47,18 @@ public class Prax_01_ {
          * Задание 10
          */
 
+        /**
+         * Задание 11
+         */
+
+        /**
+         * Задание 12
+         */
+
+        /**
+         * Задание 13
+         */
+
     }
+
 }
