@@ -1,19 +1,17 @@
-package buseduc.javacourse.prax.p02_logic;
+package buseduc.javacourse.prax.p02_arithm;
 
 public class Prax_02_LP {
     public static void main(String[] args) {
-
-    /**
-    * Практикум 2. Арифметические операции
-    */
         /**
          * Задание 1
+         * ответ 42
          */
 
         /**
          * Задание 2
          */
-
+        double k = (double) 10 / 4;
+        System.out.println(k);
         /**
          * Задание 3
          */
@@ -45,8 +43,8 @@ public class Prax_02_LP {
         /**
          * Задание 10
          */
-
+        int a = (int) (Math.random() * 10);
+        int b = (int) (Math.random() * 10);
 
     }
-
 }
