@@ -1,13 +1,12 @@
-package buseduc.javacourse.prax.p02_logic;
+package buseduc.javacourse.prax.p04_if;
 
-public class Prax_02_RP {
+public class Prax_04_ {
     public static void main(String[] args) {
 
+        /**
+        * Практикум. Условные переходы
+        */
 
-        System.out.println("RP");
-    /**
-    * Практикум 2. Арифметические операции
-    */
         /**
          * Задание 1
          */
@@ -48,6 +47,9 @@ public class Prax_02_RP {
          * Задание 10
          */
 
+        /**
+         * Задание 11
+         */
 
     }
 
