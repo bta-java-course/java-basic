@@ -1,4 +1,4 @@
-package buseduc.javacourse.prax.p01;
+package buseduc.javacourse.prax.p02_arithm;
 
 public class Prax_02_LP {
     public static void main(String[] args) {
@@ -43,6 +43,8 @@ public class Prax_02_LP {
         /**
          * Задание 10
          */
+        int a = (int) (Math.random() * 10);
+        int b = (int) (Math.random() * 10);
 
     }
 }

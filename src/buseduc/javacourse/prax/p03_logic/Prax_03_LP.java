@@ -1,6 +1,6 @@
-package buseduc.javacourse.prax.p02_logic;
+package buseduc.javacourse.prax.p03_logic;
 
-public class Prax_02_ {
+public class Prax_03_LP {
     public static void main(String[] args) {
 
         /**
@@ -10,17 +10,28 @@ public class Prax_02_ {
         /**
          * Задание 1
          */
+    boolean iAmStudent = true;
+    boolean iLoveMath = false;
+    boolean result;
 
+        result = !iAmStudent; //false
+        result = iLoveMath;
+        result = iAmStudent && !iLoveMath;//true
+        result = !iAmStudent && iLoveMath;// false && false = false
+//        result = iAmStudent || !iLoveMath;//true
+//        result = !iAmStudent || iLoveMath;// false && false = false
         /**
          * Задание 2
          */
 
         /**
          * Задание 3
+         * z должна быть boolean
          */
 
         /**
          * Задание 4
+         * вместо > использовать >=
          */
 
         /**

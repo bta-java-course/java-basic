@@ -39,13 +39,13 @@ public class Prax_01_LP {
         /**
          * Задание 6
          */
-        int x, y, z, k;
-        x = 119;
-        y = 0167;
-        z = 0x77;
-        k = 0B01110111;
-        System.out.println(x + " " + y + " " + z + " " + k); //119 119 119 119
-        System.out.println(++x + " " + ++y + " " + ++z + " " + ++k); //120 120 120 120
+//        int x, y, z, k;
+//        x = 119;
+//        y = 0167;
+//        z = 0x77;
+//        k = 0B01110111;
+//        System.out.println(x + " " + y + " " + z + " " + k); //119 119 119 119
+//        System.out.println(++x + " " + ++y + " " + ++z + " " + ++k); //120 120 120 120
 
 
 
@@ -75,8 +75,8 @@ public class Prax_01_LP {
          * Задание 10
          *
          */
-        float x = 10, y = 3;
-        System.out.println( x / y ); //3.3333333 int работает только с целыми числами. Нужно было заменить на float
+//        float x = 10, y = 3;
+//        System.out.println( x / y ); //3.3333333 int работает только с целыми числами. Нужно было заменить на float
 
     }
 }
