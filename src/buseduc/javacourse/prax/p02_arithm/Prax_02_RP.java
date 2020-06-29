@@ -1,8 +1,10 @@
 package buseduc.javacourse.prax.p02_logic;
 
-public class Prax_02_LP {
+public class Prax_02_RP {
     public static void main(String[] args) {
 
+
+        System.out.println("RP");
     /**
     * Практикум 2. Арифметические операции
     */

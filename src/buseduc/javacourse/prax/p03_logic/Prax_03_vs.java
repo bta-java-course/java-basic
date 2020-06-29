@@ -1,15 +1,23 @@
-package buseduc.javacourse.prax.p02_logic;
+package buseduc.javacourse.prax.p03_logic;
 
-public class Prax_02_LP {
+public class Prax_03_vs {
     public static void main(String[] args) {
 
-    /**
-    * Практикум 2. Арифметические операции
-    */
+        /**
+        * Практикум. Арифметические операции
+        */
+
         /**
          * Задание 1
          */
+        boolean iAmStudent = true;
+        boolean iLoveMath = false;
+        boolean result;
 
+        result = !iAmStudent;
+        result = iLoveMath;
+        result = iAmStudent || !iLoveMath;
+        result = !iAmStudent || iLoveMath;
         /**
          * Задание 2
          */
@@ -46,6 +54,17 @@ public class Prax_02_LP {
          * Задание 10
          */
 
+        /**
+         * Задание 11
+         */
+
+        /**
+         * Задание 12
+         */
+
+        /**
+         * Задание 13
+         */
 
     }
 
