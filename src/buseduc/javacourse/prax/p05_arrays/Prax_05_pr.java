@@ -152,7 +152,7 @@ public class Prax_05_pr {
          * Задание 10
          */
         System.out.println(" Task 10*");
-        System.out.println(" Currency rates in alphabet order");
+        System.out.println(" Currency rates in alphabetical order");
         double[] arrrr1 = {4.11800, 1.64060 , 1.95580, 1.54090, 1.06690, 7.98410, 26.84800,
                 7.45310, 0.91540 , 8.74560, 7.56900, 356.30000, 121.07000, 10.90130,
                 4.46640, 4.84400 , 78.91690, 10.47800, 1.57080, 7.73510, 1.12840, 19.42620, 8.2677
