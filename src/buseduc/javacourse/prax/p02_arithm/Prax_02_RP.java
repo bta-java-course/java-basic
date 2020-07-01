@@ -1,4 +1,4 @@
-package buseduc.javacourse.prax.p02_logic;
+package buseduc.javacourse.prax.p02_arithm;
 
 public class Prax_02_RP {
     public static void main(String[] args) {
@@ -48,7 +48,7 @@ public class Prax_02_RP {
          * код выводит значене 9
          */
         int x = 3;
-        int y = x * 2 + x;
+        int y = x * 2 + x;  // @VS: предполагалось изменить эту строчку
 
         --y;
         --y;

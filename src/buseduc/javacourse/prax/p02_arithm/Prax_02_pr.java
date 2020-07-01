@@ -12,6 +12,8 @@ public class Prax_02_pr {
 
         System.out.println("Task1 ");
         System.out.println(2 + 4 * 10);
+        // @VS: Ответ?
+
         /**
          * Задание 2
          */
@@ -25,6 +27,8 @@ public class Prax_02_pr {
         System.out.println("Task3 ");
         int x = 10 / 5 * 2;
         System.out.println(x);
+        // @VS: Ответ?
+
         /**
          * Задание 4
          */
@@ -43,7 +47,7 @@ public class Prax_02_pr {
          */
         System.out.println("Task6 ");
         int x4 = 3;
-        int y4 = x4 * 2 + x4;
+        int y4 = x4 * 2 + x4; // @VS: предполагалось изменить эту строчку
         System.out.println(y4);
         y4--;
         y4--;
@@ -66,6 +70,8 @@ public class Prax_02_pr {
         x7 = 12 * 10 + 45 / 5;
         x7=12 + 45;
         x7 = y7 = z7 = 2;
+        // @VS: объяснение ошибки?
+
 
         System.out.println(x7);
         /**
@@ -94,6 +100,7 @@ public class Prax_02_pr {
         x8=x8+10+5;
 
         System.out.println(x8);
+        // @VS: Не максимально кратко
 
 
         /**
@@ -141,7 +148,8 @@ public class Prax_02_pr {
         System.out.println( " p=" +   2*(a10+b10) + " S=" + b10*a10);
 
 
-        System.out.println(  );
+        System.out.println(  );         // @VS: Ответ?
+
 
     }
 
