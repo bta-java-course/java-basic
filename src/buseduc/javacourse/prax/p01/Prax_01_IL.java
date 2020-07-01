@@ -54,7 +54,7 @@ public class Prax_01_IL {
         y = 0167;
         z = 0x77;
         k = 0B01110111;
-        System.out.println(x + 1+ " " + y+1  + " " + z+1  + " " + k+1);
+        System.out.println(x + 1+ " " + y+1  + " " + z+1  + " " + k+1);  !!! ТАК НЕ РАБОТАЕТ (VS)
          */
         /**
          * Задание 7
