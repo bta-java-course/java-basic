@@ -47,8 +47,9 @@ public class Prax_02_vz {
         int money = 35;
         int coffee = 6;
         System.out.print("Task 5: ");
-        System.out.println("Balance: " + money / coffee + " eur");
+        System.out.println("Balance: " + money % coffee + " eur");
         // @VS: Неправильное решение
+        // @VZ: Исправил.
 
         /**
          * Задание 6
@@ -57,10 +58,7 @@ public class Prax_02_vz {
          */
 
         int x6 = 3;
-        int y6 = x6 * 2 + x6;  // @VS: предполагалось изменить эту строчку
-        --y6;
-        --y6;
-        --y6;
+        int y6 = x6 * 1 + x6;  // @VS: предполагалось изменить эту строчку // @VZ: Исправил.
         System.out.print("Task 6: ");
         System.out.println((--y6) + ", " + ++y6 + ", " + ++y6 + ", " + ++y6 +  " ," + ++y6 + ", " + ++y6 + ", "
                 + ++y6 + ", " + ++y6 + ", " + ++y6);

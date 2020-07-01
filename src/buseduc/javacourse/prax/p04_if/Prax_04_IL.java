@@ -7,8 +7,19 @@ public class Prax_04_IL {
         * Практикум. Условные переходы
         */
 
+
         /**
          * Задание 1
+
+        int a = 4;
+        int b = 6;
+        if (a < b) {
+            System.out.print("x");
+        } else if (b > 5) {
+            System.out.print("y");
+        } else {
+            System.out.print("z");
+        }
          */
 
         /**
@@ -25,7 +36,19 @@ public class Prax_04_IL {
 
         /**
          * Задание 5
-         */
+
+        int a5 = (int) (Math.random() * 5);
+        int b5 = (int) (Math.random() * 5);
+        int c5 = (int) (Math.random() * 5);
+
+        int d = b5 * b5 - 4 * a5 * c5;
+        if (d>0){
+            System.out.println(2);
+        } else if {
+            (d == 0 )
+        }
+        */
+
 
         /**
          * Задание 6
