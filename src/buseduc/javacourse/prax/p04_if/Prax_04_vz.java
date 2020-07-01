@@ -1,7 +1,6 @@
 package buseduc.javacourse.prax.p04_if;
 
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class Prax_04_vz {
     public static void main(String[] args) {
