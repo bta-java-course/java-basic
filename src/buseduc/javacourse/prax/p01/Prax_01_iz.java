@@ -53,6 +53,8 @@ public class Prax_01_iz {
          * Answer: MY_CONST константа и поэтому уже не может быть изменена
          * убрать final
          */
+        // @VS: это не переменная, а константа, нужно создать новую переменную для нового значения.
+
         int MY_CONST = 10;
         MY_CONST = MY_CONST + 10;
         System.out.println(MY_CONST);
@@ -61,6 +63,7 @@ public class Prax_01_iz {
          * Задание 8
          * Answer:
          */
+        // @VS: А как сделать, чтобы тип переменной сохранился?
         byte y1=1;
         byte y2=2;
         int y3=y1 +y2;
