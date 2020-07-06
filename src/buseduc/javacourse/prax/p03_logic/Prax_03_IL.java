@@ -86,7 +86,7 @@ public class Prax_03_IL {
         boolean b5 = false;
         a5 &= b5;
         a5 |= !b5;
-        System.out.println(a5);
+        System.out.println(a5); // @VS: Какое значение будет у переменной a после выполнения кода? Почему?
 
 
         /**
@@ -107,10 +107,10 @@ public class Prax_03_IL {
         boolean troyan = false;
         boolean axeyc = false;
 
-        boolean d3 = minyon & !troyan &!axeyc;
+        boolean d3 = minyon & !troyan &!axeyc; // @VS: или так: minyon & !(troyan | axeyc)
         System.out.println(d3);
         System.out.println("Задание 6.2");
-        boolean d4 = minyon | axeyc & !troyan;
+        boolean d4 = minyon | axeyc & !troyan; // @VS: неправильно
         System.out.println(d4);
         System.out.println("Задание 6.3");
         boolean d5 = troyan & minyon & !axeyc;
@@ -121,7 +121,7 @@ public class Prax_03_IL {
         System.out.println("Задание 6.5");
         boolean d7 = minyon & troyan & axeyc;
         System.out.println(d7);
-        System.out.println("Задание 6.5");
+        System.out.println("Задание 6.5"); // @VS: 6.6 ?
 
 
 

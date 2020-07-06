@@ -95,7 +95,7 @@ public class Prax_04_vz {
             System.out.println("2");
         } else if (d == 0) {
             System.out.println("1");
-        } else if (d < 0) {
+        } else if (d < 0) {             // @VS: здесь if уже не нужен
             System.out.println("0");
         }
 
@@ -198,7 +198,7 @@ public class Prax_04_vz {
         System.out.println("Task 10:");
         String word = "John";
         boolean ch = Character.isUpperCase(word.charAt(0));
-        if (ch == true) {
+        if (ch == true) {   // @VS: Желательно использовать тернарные операторы
             System.out.println(word + " is name");
         } else {
             System.out.println(word + " is word");

@@ -21,6 +21,7 @@ public class Prax_04_IL {
             System.out.print("z");
         }
          */
+        // @VS: так не выведет x y
 
         /**
          * Задание 2

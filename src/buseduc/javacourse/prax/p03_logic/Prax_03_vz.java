@@ -62,7 +62,7 @@ public class Prax_03_vz {
         boolean b5 = false;
         a5 &= b5;
         a5 |= !b5;
-        System.out.println(a5);
+        System.out.println(a5); // @VS: Какое значение будет у переменной a после выполнения кода? Почему?
 
         /**
          * Задание 6
@@ -75,7 +75,7 @@ public class Prax_03_vz {
 
         boolean f1 = minoans & !trojans & !achaeans;
         boolean f2 = (minoans | achaeans) & !trojans;
-        boolean f3 = (trojans & minoans) & !achaeans;
+        boolean f3 = (trojans & minoans) & !achaeans; // @VS: скобки не обязательны
         boolean f4 = minoans || trojans || achaeans;
         boolean f5 = minoans && trojans && achaeans;
         boolean f6 = trojans && minoans ^ achaeans;
@@ -88,7 +88,7 @@ public class Prax_03_vz {
         int rand = (int) (Math.random() * 2);
         boolean a7 = rand == 0;
         boolean result7 = !a7 && 2 / rand > 1;
-        System.out.println(result7);
+        System.out.println(result7); // @VS: хотелось объяснения
 
         /**
          * Задание 8
@@ -108,7 +108,7 @@ public class Prax_03_vz {
         System.out.println("Task 9:");
         int a9 = 1;
         int b9 = 2;
-        boolean complicated = (a9 < b9) && (a9 > b9);
+        boolean complicated = (a9 < b9) && (a9 > b9); // @VS: неверно
         System.out.println(complicated);
 
         /**

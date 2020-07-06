@@ -83,7 +83,7 @@ public class Prax_05_pr {
         System.out.println(" Task 7");
 
 
-        double[] CR7 =  new double[ 21 ];
+        double[] CR7 =  new double[ 21 ]; // @VS: инициализировать не нужно в этом задании
         CR7[3]=  1.53180;
 
         System.out.format(" CAD "  + " %-10.5f%n ", CR7[3]) ;
@@ -118,8 +118,7 @@ public class Prax_05_pr {
         System.out.format( " TRY "  + " %-10.5f%n ", CR8[19]) ;
 
         CR8[15]= 4.84260;
-        System.out.format( " RON "  + " %-10.5f%n ", CR8[15]) ;
-
+        System.out.format( " RON "  + " %-10.5f%n ", CR8[15]) ;    // @VS: нарушен алфавитный порядок
 
         CR8[21]= 24580.0000;
         System.out.format( " VND "  + " %-10.5f%n ", CR8[21]) ;

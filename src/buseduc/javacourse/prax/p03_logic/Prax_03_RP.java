@@ -67,7 +67,7 @@ public class Prax_03_RP {
         a5 &= b5; //a5 = a5 & b5,   true & false = false
         a5 |= b5; //a5 = a5 | b5,   false | false = false
         System.out.println("Exercise 5.1: ");
-        System.out.println(a5); // a5 = false
+        System.out.println(a5); // a5 = false @VS: почему?
 
         //Задание 5.2
         boolean a52 = true;
@@ -98,13 +98,13 @@ public class Prax_03_RP {
         //Задание 6.2
         boolean genesis2 = (minoici | aheici) & !trojane;
         //Задание 6.3
-        boolean genesis3 = (trojane & minoici) & !aheici;
+        boolean genesis3 = (trojane & minoici) & !aheici; // @VS: скобки не обязательны
         //Задание 6.4
         boolean genesis4 = minoici | aheici | trojane;
         //Задание 6.5
         boolean genesis5 = minoici & aheici & trojane;
         //Задание 6.6
-        boolean genesis6 = trojane & (!minoici & aheici);
+        boolean genesis6 = trojane & (!minoici & aheici); // @VS: неправильно
 
 
         /**
@@ -112,12 +112,12 @@ public class Prax_03_RP {
          *
          */
         int rand = (int) (Math.random() * 2);
-        boolean a = rand == 0;
+        boolean a7 = rand == 0;
         System.out.println("rand = " + rand);
-        System.out.println("a = " + a);
+        System.out.println("a7 = " + a7);
         //Делить на 0 нельзя. Если rand = 0, выдаст ошибку.
         // если rand = 0, то нужно исключить выполнение 2 / rand
-        boolean result = !a && 2 / rand > 1;
+        boolean result = !a7 && 2 / rand > 1;
         System.out.println("Exercise 7: ");
         System.out.println(result);
 
@@ -135,43 +135,43 @@ public class Prax_03_RP {
         /**
          * Задание 9
          */
-        int a = 1;
-        int b = 2;
+        int a9 = 1;
+        int b9 = 2;
         //boolean complicated = ! (a < b) && ! (a > b);
-        boolean complicated = (a < b) & (a > b);
+        boolean complicated = (a9 < b9) & (a9 > b9); // @VS: неправильно
 
         /**
          * Задание 10
          */
-        int a = 5 & 7; //5
-        int b = 31 & 17 ; //17
-        int c = 29 & 27; //25
-        System.out.println("a,  b, c = " + a + ", " + b + ", " + c);
+        int a10 = 5 & 7; //5
+        int b10 = 31 & 17 ; //17
+        int c10 = 29 & 27; //25
+        System.out.println("a,  b, c = " + a10 + ", " + b10 + ", " + c10);
 
         /**
          * Задание 11
          */
-        int a = 4 | 1; //5
-        int b = 17 | 17 ; //17
-        int c = 24 | 9; //25
-        System.out.println("a,  b, c = " + a + ", " + b + ", " + c);
+        int a11 = 4 | 1; //5
+        int b11 = 17 | 17 ; //17
+        int c11 = 24 | 9; //25
+        System.out.println("a,  b, c = " + a11 + ", " + b11 + ", " + c11);
         /**
          * Задание 12
          */
-        int a = 4 ^ 1; //5
-        int b = 14 ^ 31 ; //17
-        int c = 13 ^ 20; //25
-        System.out.println("a,  b, c = " + a + ", " + b + ", " + c);
+        int a12 = 4 ^ 1; //5
+        int b12 = 14 ^ 31 ; //17
+        int c12 = 13 ^ 20; //25
+        System.out.println("a,  b, c = " + a12 + ", " + b12 + ", " + c12);
         /**
          * Задание 13
          */
         //Из числа 17 число 8
         //Из числа 17 число 272
         //Из числа 23 число 5.
-        int a = 17;
+        int a13 = 17;
         int f = 23;
-        int res1 = a >> 1;
-        int res2 = a << 4;
+        int res1 = a13 >> 1;
+        int res2 = a13 << 4;
         int res3 = f >> 2;
         System.out.println("a, s, f = "  + res1 + ", " + res2 + ", " + res3 );
 

@@ -24,7 +24,7 @@ public class Prax_03_ {
         System.out.println(result1);
 
         result1= (!iAmStudent1) && iLoveMath1;
-        System.out.println(result1);
+        System.out.println(result1); // @VS: одного выражения не хватает
 
         /**
          * ??????? 2
@@ -76,7 +76,7 @@ public class Prax_03_ {
         a5 |= !b5;
 
         System.out.println(a5);
-        System.out.println(b5);
+        System.out.println(b5); // @VS: Какое значение будет у переменной a после выполнения кода? Почему?
 
        
         System.out.println("Task6 ");
@@ -101,7 +101,7 @@ public class Prax_03_ {
         m6=true;
         t6=true;
         a6=false;
-        boolean r63=(m6 & t6) & !a6;
+        boolean r63=(m6 & t6) & !a6; // @VS: скобки не обязательны
         System.out.println(r63);
 
         System.out.println("Task6 p.4 ");
@@ -125,7 +125,7 @@ public class Prax_03_ {
         m6=false;
         t6=true;
         a6=true;
-        r65=t6 && ((a6 && !m6) || m6);
+        r65=t6 && ((a6 && !m6) || m6); // @VS: можно проще
         System.out.println(r65);
 
         /**
@@ -136,7 +136,7 @@ public class Prax_03_ {
         int rand = (int) (Math.random() * 2);
         boolean a = rand == 0;
         boolean result = !a && 2 / rand > 1;
-        System.out.println(result);
+        System.out.println(result); // @VS: хочется объяснений
         /**
          * ??????? 8
          */
@@ -159,7 +159,7 @@ public class Prax_03_ {
         int a9 = 1;
         int b9 = 2;
         boolean complicated = ( !(a9 < b9) && ! (a9 > b9));  // "complicated" has always (for any a and b) the same value equal to "false"".
-        System.out.println(complicated);
+        System.out.println(complicated); // @VS: неверно
 
         /**
          * ??????? 10

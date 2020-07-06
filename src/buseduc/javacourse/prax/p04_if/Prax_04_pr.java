@@ -76,7 +76,7 @@ public class Prax_04_pr {
         if (largestNumber == a) {
             System.out.println("a");
         }
-        ;
+        ; // @VS: лишняя точка с запятой - ухудшает читаемость
 
         if (largestNumber == b) {
             System.out.println("b");
@@ -127,7 +127,7 @@ public class Prax_04_pr {
             int d = b * b - 4 * a * c;
             if (d == 0) System.out.println(" This equation has one real root.");
             if (d < 0) System.out.println(" This equation has no real roots.");
-            if (d > 0) System.out.println(" This equation has two real roots.");
+            if (d > 0) System.out.println(" This equation has two real roots."); // @VS: лестница лучше читается
 
         }
         /**
@@ -246,7 +246,7 @@ public class Prax_04_pr {
                 ring = "a is not  not 1 or 2 or 3 or 4 or 5 or 6 or 7";
 
 
-                break;
+                break; // @VS: последний break не нужен
         }
 
         System.out.println(ring + "   " + a);
@@ -289,7 +289,7 @@ public class Prax_04_pr {
             System.out.print(word + " is name");
         }
         else{
-            System.out.print(word+" is word");
+            System.out.print(word+" is word"); // @VS: Желательно использовать тернарные операторы!
         }
 
 
@@ -302,7 +302,7 @@ public class Prax_04_pr {
         int p1full=0;
         int p2full=0;
 
-        System.out.println(  su );
+        System.out.println(  su ); // @VS: плохое название переменной - непонятно
         System.out.println(  num1 );
         System.out.println(  num2 );
 
@@ -353,7 +353,7 @@ public class Prax_04_pr {
 
 
 
-
+        // @VS: нет информации в конце каждого кона "Игрок a (камень) выиграл игрока b (ножницы)"
 
 
 
