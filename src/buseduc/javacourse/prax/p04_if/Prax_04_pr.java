@@ -293,6 +293,10 @@ public class Prax_04_pr {
         }
 
 
+
+        System.out.print("\n");
+        System.out.println("Task");
+
         int num1=0;
         int num2=0;
 
@@ -306,8 +310,98 @@ public class Prax_04_pr {
         System.out.println(  num1 );
         System.out.println(  num2 );
 
+        if (su== 0) {
+            System.out.println("  STANDOFF  ");
+        }
+
+        if (su== 3) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+        if (su== -3) {
+            System.out.println("  2 ");
+            p2full++;
+        }
 
 
+        if (su== -8) {
+            System.out.println("  2  ");
+            p2full++;
+        }
+
+        if (su== 8) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+
+        if (su== -5) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+        if (su== 5) {
+            System.out.println("  2 ");
+            p2full++;
+        }
+
+        System.out.println( " 1 tour   " + p1full+"," +p2full);
+
+        num1 = (int) (Math.random() * 3+ 1);
+        num2 = (int) (Math.random() * 3+ 1);
+        su=num1*num1-num2*num2;
+
+        System.out.println(  su );
+        System.out.println(  num1 );
+        System.out.println(  num2 );
+
+        if (su== 0) {
+            System.out.println("  STANDOFF  ");
+        }
+
+        if (su== 3) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+        if (su== -3) {
+            System.out.println("  2 ");
+            p2full++;
+        }
+
+
+        if (su== -8) {
+            System.out.println("  2  ");
+            p2full++;
+        }
+
+        if (su== 8) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+
+        if (su== -5) {
+            System.out.println("  1 ");
+            p1full++;
+        }
+
+        if (su== 5) {
+            System.out.println("  2 ");
+            p2full++;
+        }
+
+        System.out.println( " 2 tour   " + p1full+"," +p2full);
+
+
+        num1 = (int) (Math.random() * 3+ 1);
+        num2 = (int) (Math.random() * 3+ 1);
+        su=num1*num1-num2*num2;
+
+        System.out.println(  su );
+        System.out.println(  num1 );
+        System.out.println(  num2 );
 
         if (su== 0) {
             System.out.println("  STANDOFF  ");
@@ -346,6 +440,9 @@ public class Prax_04_pr {
         }
 
         System.out.println( " 3 tour   " + p1full+"," +p2full);
+
+
+
 
         if (p1full > p2full) {System.out.println("1 is winner!");}
         else if (p1full < p2full) {System.out.println("2 is winner!");}
