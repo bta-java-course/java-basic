@@ -31,20 +31,20 @@ public class Prax_01_pr {
         char ch1, ch2;
         ch1 = 119;
         ch2 = 'w';
-        System.out.println(ch1 + " +  " + ch2);
+        System.out.println(ch1 + " +  " + ch2); // @VS:  ПОПРАВКА: ch1 + "+" + ch2 (VS)
 
         char ch17, ch27;
         ch17 = 119;
         ch27 = 'w';
         char ch37=43;
 
-        System.out.println(ch17 + "  "+ ch37 +"  " + ch27);
+        System.out.println(ch17 + "  "+ ch37 +"  " + ch27); // @VS:  ???
 
 
         char ch11, ch21;
         ch11 = 119;
         ch21 = 'w';
-        System.out.println( (int) ch11 + (int) ch21);
+        System.out.println( (int) ch11 + (int) ch21); // @VS: МОЖНО ПРОЩЕ: ch1 + ch2
 
 
         /**

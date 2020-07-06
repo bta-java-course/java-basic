@@ -12,6 +12,8 @@ public class Prax_02_IL {
          */
         System.out.println("Задание 1");
         System.out.println(2 + 4 * 10);
+        // @VS: Ответ?
+
 
 
 
@@ -20,7 +22,7 @@ public class Prax_02_IL {
          * Нужно использоваь тип данных float
          */
         System.out.println("Задание 2");
-        float k = 10 / 4f;
+        float k = 10 / 4f;         // @VS: можно и double.
         System.out.println(k);
 
 
@@ -34,8 +36,6 @@ public class Prax_02_IL {
         System.out.println("Задание 3");
         int x3 = 10 / 5 * 2;
         System.out.println(x3);
-
-
 
 
         /**
@@ -64,12 +64,12 @@ public class Prax_02_IL {
          */
         System.out.println("Задание 6");
         int x6 = 3;
-        int y6 = x6 * 2 + x6;
+        int y6 = x6 * 2 + x6;  // @VS: предполагалось изменить эту строчку
+
         y6--;
         y6--;
         y6--;
         System.out.println( (--y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6) + ", " + (++y6));
-
 
 
 
@@ -85,6 +85,8 @@ public class Prax_02_IL {
         x7 = 12 + 45 ;
         x7 = y7 = z7 = 2;
         System.out.println("x7");
+        // @VS: объяснение ошибки?
+
 
         /**
          * Задание 8

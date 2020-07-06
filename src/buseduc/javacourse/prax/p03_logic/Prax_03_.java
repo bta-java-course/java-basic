@@ -1,16 +1,11 @@
 package buseduc.javacourse.prax.p03_logic;
 
-import java.util.Arrays;
-import java.util.Collections;
-
-
-
 public class Prax_03_ {
     public static void main(String[] args) {
 
 
         /**
-         * ?????????. 3  Logical operations
+         * ?????????. 3  Logic operations
          */
 
         /**
@@ -83,7 +78,7 @@ public class Prax_03_ {
         System.out.println(a5);
         System.out.println(b5);
 
-       
+
         System.out.println("Task6 ");
         System.out.println("Task6 p.1 ");
 
@@ -242,82 +237,6 @@ public class Prax_03_ {
         System.out.println(a13);
         a13 = a13>>2;
         System.out.println(a13);
-
-
-        System.out.println("Pr4");
-        System.out.println(" Task 9");
-
-
-        String[] CN = { "AED ", "AUD","BGN"  , "CAD" , "CHF", "CNY", "CZK"
-                , "DKK",  "GBP", "HKD", "HRK", "HUF", "JPY", "NOK", "PLN"
-                , "RON", "RUB", "SEK", "SGD", "TRY", "USD", "ZAR" , "Brl"
-                , "Eek", "Dop"
-        };
-
-
-
-        for (int i9 = 0; i9 < 25; i9++) {
-            System.out.println( " i=" +   i9 + " " +  CN[i9]);
-        }
-
-        Arrays.sort(CN);
-
-        System.out.println(Arrays.toString(CN));
-
-        for (int i9 = 24; i9 >-1; i9--) {
-            System.out.println( " i=" +   i9 + " " +  CN[i9]);
-        }
-
-
-        Arrays.sort(CN, Collections.reverseOrder());
-
-        System.out.println(Arrays.toString(CN));
-
-
-        System.out.println("Pr4 Task 10 ");
-
-        double[] CN10 = { 3.0, 11.09 , 12.08, 13.06, 14.07, 15.06, 89.8 };
-
-        String[] CN11 = {"aed", "aud","bgn","cad","cao",  "  cod " ,  " chf"
-        };
-
-
-        double[] arr10 = Arrays.copyOf(CN10, 7);
-
-
-
-
-        for (int i10 = 0; i10 < 7; i10++) {
-            System.out.println( " i=" +   i10 + " " +  CN11[i10]   + "  , " + CN10[i10]  );
-        }
-
-        Arrays.sort(CN11);
-
-        System.out.println(Arrays.toString(CN11));
-
-
-        for (int i10 = 0; i10 < 6; i10++) {
-            System.out.println( " i=" +   i10 + " " +  CN10[i10]);
-        }
-
-
-
-        int t=Arrays.binarySearch(CN10, 9);
-        System.out.println(t);
-        System.out.println(Arrays.binarySearch(CN10, 9));
-
-        double[] arrrr = {3.0, 11.09 , 12.08, 13.06, 14.07, 15.06, 89.8};
-        System.out.println(Arrays.binarySearch(arrrr, 14.07));
-
-        Arrays.sort(arrrr);
-
-        System.out.println(Arrays.binarySearch(arrrr, 14.07));
-
-
-
-
-
-
 
 
     }

@@ -59,22 +59,25 @@ public class Prax_01_vz {
          * Ответ: переменная MY_CONST константа и поэтому уже не может быть изменена
          * Надо убрать ключевое слово final
          */
-
-        int MY_CONST = 10;
-        MY_CONST = MY_CONST + 10;
-        System.out.println(MY_CONST);
+        // @VS: это не переменная, а константа, нужно создать новую переменную для нового значения.
+        // @VZ: Исправил.
+        final int MY_CONST = 10;
+        int tmp;
+        tmp = MY_CONST + 10;
+        System.out.println(tmp);
 
         /**
          * Задание 8 и 9
          */
-
+        // @VS: А как сделать, чтобы тип переменной сохранился?
+        // @VZ: Исправил.
         byte y1 = 1, y2 = 2;
-        int y3 = y1 + y2;
-        System.out.println(y3);
+        y1 = (byte) (y1 + y2);
+        System.out.println(y1);
 
         short z1 = 1, z2 = 2;
-        int z3 = z1 + z2;
-        System.out.println(z3);
+        z1 = (short) (z1 + z2);
+        System.out.println(z1);
 
         /**
          * Задание 10
