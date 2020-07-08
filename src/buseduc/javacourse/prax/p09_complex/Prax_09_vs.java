@@ -38,7 +38,11 @@ public class Prax_09_vs {
                 System.out.print(nx);
                 System.out.print(", ");
             }
+
         }
+
+
+
         /**
          * Задание 4
          */
