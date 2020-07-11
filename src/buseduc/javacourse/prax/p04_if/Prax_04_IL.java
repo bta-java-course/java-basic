@@ -158,23 +158,81 @@ public class Prax_04_IL {
             default:
                 x += 2;
         }
-        System.out.print(x);
+        System.out.println(x);
 
         /**
          * Задание 8
          */
+        System.out.println("Task 8: ");
+        int p = (int) (Math.random() * 7) + 1;
+        System.out.println(p);
+        String day;
+        switch(p) {
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "wendsday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+            case 7:
+                day = "Sunday";
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + p);
+        }
+        System.out.println(day);
+
+
+
+
+
+
+
+
 
         /**
          * Задание 9
          */
+        System.out.println("Task 9: ");
+
+        int num = (int) (Math.random() * 10) - (int) (Math.random() * 10);
+        System.out.println(num >= 0 ? num : -num);
+
 
         /**
          * Задание 10
          */
+        System.out.println("Task 10: ");
+        String word = "John";
+        boolean chr = Character.isUpperCase(word.charAt(0));
+        if (chr) {
+            System.out.println(word + " is name");
+        }else{
+            System.out.println(" is word");
+        }
+        System.out.println(chr ? true  : false);
+
+
+
 
         /**
          * Задание 11
          */
+
+
+
 
     }
 

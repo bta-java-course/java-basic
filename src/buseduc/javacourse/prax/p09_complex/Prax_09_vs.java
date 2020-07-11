@@ -47,7 +47,7 @@ public class Prax_09_vs {
 
 =======
 */
->>>>>>> 47c305b6fee7826ec806fff4a2d7cbbecefb3b4d
+
         /**
          * Задание 4
          */
