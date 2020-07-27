@@ -78,7 +78,7 @@ public class Prax_06_IL {
         System.out.println("Task 6: ");
         int number = 5;
         for (int y = 0; y <= number; y++) {
-            System.out.println("5 * "+ y + " = " + y * number);
+            System.out.println("5 * "+ y + " = " + y * number); // @VS: на дисплей будет всегда выводиться 5
         }
 
 

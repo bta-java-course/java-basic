@@ -116,7 +116,7 @@ public class Prax_05_IL {
                 , "EEK", "DOP"};
         Arrays.sort(currencyNames);
         System.out.println(Arrays.toString(currencyNames));
-
+        // @VS: А в обратном порядке?
 
 
 

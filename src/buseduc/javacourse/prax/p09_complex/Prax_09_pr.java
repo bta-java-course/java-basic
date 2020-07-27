@@ -69,7 +69,7 @@ public class Prax_09_pr {
         average=average/next3;
         System.out.println("Avarage="+average);
         System.out.print("[");
-        for ( int i3 = 0; i3 < next3 - 1; i3++)
+        for ( int i3 = 0; i3 < next3 - 1; i3++) // @VS: Здесь он не доберется до последнего элемента массива
         {if(y[i3]< average){System.out.print(y[i3]+" ");}}
         System.out.print("]");
 
@@ -88,7 +88,7 @@ public class Prax_09_pr {
         float radiusKruga = 123;
         float a4=123;
         float b4=321;
-
+        // @VS: не разбито на методы (
 
         switch (next4){
             case "circle":     {

@@ -103,7 +103,7 @@ public class Prax_05_vz {
         Arrays.sort(currencyNames, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                if (o1.length() > o2.length()) return -1;
+                if (o1.length() > o2.length()) return -1; // @VS: в чем смысл такого сравнения? это не обратный порядок
                 if (o1.length() < o2.length()) return 1;
                 return -1;
             } });

@@ -21,8 +21,8 @@ public class Prax_05_RP {
          * Задание 2
          */
 
-        int[] arr = {2, 4, 6, 8 };
-        System.out.println( arr[0] + " " + arr[3] );
+        int[] arr02 = {2, 4, 6, 8 };
+        System.out.println( arr02[0] + " " + arr02[3] );
 
         /**
          * Задание 3
@@ -36,10 +36,10 @@ public class Prax_05_RP {
         /**
          * Задание 4
          */
-        int[] y = {2, 4, 7};
-        int l = y.length;
+        int[] y04 = {2, 4, 7};
+        int l = y04.length;
         int last = --l;
-        System.out.println(y[last]);
+        System.out.println(y04[last]);
 
         /**
          * Задание 5
@@ -63,18 +63,18 @@ public class Prax_05_RP {
          * Задание 7
          */
         //Записать в него курсы валют CAD, CZK, TRY, RON
-        double[] currencyRates = new double[22];
-        currencyRates[3] = 1.5336; //CAD
-        currencyRates[6] = 26.691; //CZK
-        currencyRates[15] = 4.8428; //RON
-        currencyRates[19] = 7.7417; //TRY
-        System.out.println(Arrays.toString(currencyRates));
+        double[] currencyRates07 = new double[22];
+        currencyRates07[3] = 1.5336; //CAD
+        currencyRates07[6] = 26.691; //CZK
+        currencyRates07[15] = 4.8428; //RON
+        currencyRates07[19] = 7.7417; //TRY
+        System.out.println(Arrays.toString(currencyRates07));
 
         /**
          * Задание 8
          */
 
-        double[] currencyRates2 = Arrays.copyOf(currencyRates, 23);
+        double[] currencyRates2 = Arrays.copyOf(currencyRates07, 23);
         currencyRates2[21] = 19.0889; // VND
         System.out.println(Arrays.toString(currencyRates2));
 

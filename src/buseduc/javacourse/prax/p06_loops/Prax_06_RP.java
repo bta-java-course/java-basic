@@ -26,9 +26,9 @@ public class Prax_06_RP {
         /**
          * Задание 3
          */
-        int n = 3;
-        for(int i = 0; i < n; i++)
-            System.out.println(n - i);
+        int n03 = 3;
+        for(int i = 0; i < n03; i++)
+            System.out.println(n03 - i);
         /**
          * Задание 4
          */
@@ -51,6 +51,7 @@ public class Prax_06_RP {
         while (true) {
             if (sec > 60) {
                 sec = 1;
+                break;
             }
             System.out.println(sec++);
             try{ //PAUSE FOR 1000 millisec
@@ -62,19 +63,19 @@ public class Prax_06_RP {
          * Задание 6
          */
         System.out.println("zadanie 6");
-        int n = 5;
+        int n06 = 5;
         for(int i = 0; i <= 5; i++){
 
-            System.out.println(n + " x " + i + " = " + n * i);
+            System.out.println(n + " x " + i + " = " + n06 * i);
         }
 
         /**
          * Задание 7
          */
         System.out.println("zadanie 7");
-        int n = 2;
-        for(int i =0; i <= n; i++) {
-            for (int y = 0; y <= n; y++) {
+        int n07 = 2;
+        for(int i =0; i <= n07; i++) {
+            for (int y = 0; y <= n07; y++) {
 
                 System.out.println(i + " x " + y + " = " + i * y);
             }
@@ -88,10 +89,10 @@ public class Prax_06_RP {
          */
 
         System.out.println("zadanie 8");
-        int n = 10;
-        for(int i =0; i <= n; i++) {
+        int n08 = 10;
+        for(int i =0; i <= n08; i++) {
             for (int y = 0; y <= i; y++) {
-                System.out.print(y);
+                System.out.print(y);  // @VS: по заданию нумерация начинается с 1
             }
             System.out.println(" ");
         }
@@ -100,9 +101,9 @@ public class Prax_06_RP {
          * Задание 9
          */
         //Задание 9.1
-        int n = 8;
-        for(int i = 1; i <= n; i++) {
-            for(int a = n - i; a > 0; a--) {
+        int n091 = 8;
+        for(int i = 1; i <= n091; i++) {
+            for(int a = n091 - i; a > 0; a--) {
                 System.out.print(" ");
             }
             for (int y = 1; y <= i; y++) {
@@ -112,9 +113,9 @@ public class Prax_06_RP {
         }
 
         //Задание 9.2
-        int n = 8;
-        for(int i = 1; i <= n; i++) {
-            for (int a = n - i; a > 0; a--) {
+        int n092 = 8;
+        for(int i = 1; i <= n092; i++) {
+            for (int a = n092 - i; a > 0; a--) {
                 System.out.print(" ");
             }
             for (int y = 1; y <= 2 * i - 1; y++) {
@@ -128,7 +129,7 @@ public class Prax_06_RP {
          */
 
         String[] words = {"семеро", "с", "ложкой", "один", "с", "сошкой"};
-        int n = words.length;
+        int n10 = words.length;
         Arrays.sort(words, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -139,7 +140,7 @@ public class Prax_06_RP {
         });
         System.out.println(Arrays.toString(words));
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n10; i++) {
             System.out.println(words[i]);
         }
 

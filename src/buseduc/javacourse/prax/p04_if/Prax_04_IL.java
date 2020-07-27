@@ -52,8 +52,8 @@ public class Prax_04_IL {
         System.out.print(b3 + ", ");
         System.out.println(c3 );
 
-        if(a3>b3){
-            System.out.println("a - "+ a3 + " самое большое число");
+        if(a3>b3) {
+            System.out.println("a - "+ a3 + " самое большое число"); // @VS: А если c3 больше всех?
         }else if(a3>c3){
             System.out.println("a - "+ a3 + " самое большое число");
         }else if(b3 > a3){
@@ -158,7 +158,7 @@ public class Prax_04_IL {
             default:
                 x += 2;
         }
-        System.out.println(x);
+        System.out.println(x);  // @VS: не исправлено, не объяснено
 
         /**
          * Задание 8
@@ -222,7 +222,7 @@ public class Prax_04_IL {
         }else{
             System.out.println(" is word");
         }
-        System.out.println(chr ? true  : false);
+        System.out.println(chr ? true  : false); // @VS: можно просто распечатать chr
 
 
 

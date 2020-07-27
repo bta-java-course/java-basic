@@ -73,8 +73,8 @@ public class Prax_04_RP {
 
         //в соответствии с григорианским календарем, год является високосным,
         //если его номер кратен 4, но не кратен 100, а также если он кратен 400.
-        int a = (int) (Math.random() * 2020);
-        if((a % 4 == 0) & (a % 100 != 0) || (a % 400 == 0)) {
+        int a04 = (int) (Math.random() * 2020);
+        if((a04 % 4 == 0) & (a04 % 100 != 0) || (a04 % 400 == 0)) {
             System.out.println(a + " Високосный год");
         } else {
             System.out.println(a + " Обычный год");
@@ -84,14 +84,14 @@ public class Prax_04_RP {
         /**
          * Задание 5
          */
-        int a = (int) (Math.random() * 5);
-        int b = (int) (Math.random() * 5);
+        int a05 = (int) (Math.random() * 5);
+        int b05 = (int) (Math.random() * 5);
         int c = (int) (Math.random() * 5);
 
-        System.out.println("a = " + a + ", b = " + b + ", c = " + c);
+        System.out.println("a = " + a05 + ", b = " + b05 + ", c = " + c);
 
         //int d = b * b - 4 * a * c;
-        int d = (int) (Math.pow(b, 2) - 4 * a * c);
+        int d = (int) (Math.pow(b05, 2) - 4 * a05 * c);
         System.out.println("D = " + d);
         if (d > 0) {
             System.out.println("Корней: 2");
@@ -107,22 +107,22 @@ public class Prax_04_RP {
          * Задание 6
          */
 
-        int a = (int) (Math.random() * 7) + 1;
+        int a06 = (int) (Math.random() * 7) + 1;
 
-        if(a == 1) {
-            System.out.println(a + " - Понедельник");
-        } else if (a == 2) {
-            System.out.println(a + " - Вторник");
-        } else if (a == 3) {
-            System.out.println(a + " - Среда");
-        } else if (a == 4) {
-            System.out.println(a + " - Четверг");
-        } else if (a == 5) {
-            System.out.println(a + " - Пятница");
-        }  else if (a == 6) {
-            System.out.println(a + " - Суббота");
+        if(a06 == 1) {
+            System.out.println(a06 + " - Понедельник");
+        } else if (a06 == 2) {
+            System.out.println(a06 + " - Вторник");
+        } else if (a06 == 3) {
+            System.out.println(a06 + " - Среда");
+        } else if (a06 == 4) {
+            System.out.println(a06 + " - Четверг");
+        } else if (a06 == 5) {
+            System.out.println(a06 + " - Пятница");
+        }  else if (a06 == 6) {
+            System.out.println(a06 + " - Суббота");
         } else {
-            System.out.println(a + " - Воскресенье");
+            System.out.println(a06 + " - Воскресенье");
         }
 
         /**
@@ -152,29 +152,29 @@ public class Prax_04_RP {
          * Задание 8
          */
 
-        int a = (int) (Math.random() * 7) + 1;
+        int a08 = (int) (Math.random() * 7) + 1;
 
-        switch (a) {
+        switch (a08) {
             case 1:
-                System.out.println(a + " - Понедельник");
+                System.out.println(a08 + " - Понедельник");
                 break;
             case 2:
-                System.out.println(a + " - Вторник");
+                System.out.println(a08 + " - Вторник");
                 break;
             case 3:
-                System.out.println(a + " - Среда");
+                System.out.println(a08 + " - Среда");
                 break;
             case 4:
-                System.out.println(a + " - Четверг");
+                System.out.println(a08 + " - Четверг");
                 break;
             case 5:
-                System.out.println(a + " - Пятница");
+                System.out.println(a08 + " - Пятница");
                 break;
             case 6:
-                System.out.println(a + " - Суббота");
+                System.out.println(a08 + " - Суббота");
                 break;
             default:
-                System.out.println(a + " - Воскресенье");
+                System.out.println(a08 + " - Воскресенье");
                 break;
         }
 
@@ -193,8 +193,8 @@ public class Prax_04_RP {
 
         String word = "Roman";
         boolean isUpCase = Character.isUpperCase(word.charAt(0));
-        String result = isUpCase ? word + " is name" : word + " is word";
-        System.out.println(result);
+        String result10 = isUpCase ? word + " is name" : word + " is word";
+        System.out.println(result10);
 
         /**
          * Задание 11
